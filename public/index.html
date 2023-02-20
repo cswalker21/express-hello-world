@@ -1,45 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Cyclic: Hello World</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="/main.css" />
-    <link rel="icon" href="/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tea Cozy Tea Shop</title>
   </head>
   <body>
-    <div id="hello-wrapper">
-      <div id="particles-js"></div>
-      <div class="content position-absolute w-100 top-0 pt-5">
-        <div class="cta">
-          <div id="hello" class="typewriter pb-3">Hello World!</div>
-          <a class="btn btn-primary mb-5" href="//app.cyclic.sh/api/login"
-            >Login to Cyclic</a
-          >
+    <header>
+      <img src="images/img-tea-cozy-logo.png" />
+      <nav>
+        <ul>
+          <li><a href="#mission">Mission</a></li>
+          <li><a href="#featured">Featured Teas</a></li>
+          <li><a href="#locations">Locations</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="mission">
+        <div class="banner">
+          <h2>Our Mission</h2>
+          <h4>
+            Hand-picked, Artisinally Curated, Free Range, Sustainable, Small
+            Batch, Fair Trade, Organic Tea
+          </h4>
         </div>
-        <div id="world">
-          <p>Welcome to my website!</p>
-          <img
-            src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif"
-          />
+      </section>
+      <section id="featured">
+        <h2>Tea of the Month</h2>
+        <h4>What's Steeping at The Tea Cozy?</h4>
+        <div class="container">
+          <div class="tea-card">
+            <img
+              src="images/img-berryblitz.jpg"
+              alt="berry-infused tea from above"
+            />
+            <h4>Fall Berry Blitz Tea</h4>
+          </div>
+          <div class="tea-card">
+            <img
+              src="images/img-spiced-rum.jpg"
+              alt="Tea crate with text 'it pays to buy good tea' and scattered leaves"
+            />
+            <h4>Spiced Rum Tea</h4>
+          </div>
+          <div class="tea-card">
+            <img
+              src="images/img-donut.jpg"
+              alt="sugary donut on square plate with doily"
+            />
+            <h4>Seasonal donuts</h4>
+          </div>
+          <div class="tea-card">
+            <img
+              src="images/img-myrtle-ave.jpg"
+              alt="tea cup with tea bag viewed from above"
+            />
+            <h4>Myrtle Ave Tea</h4>
+          </div>
+          <div class="tea-card">
+            <img
+              src="images/img-bedford-bizarre.jpg"
+              alt="cup of tea with saucer and sugar container from above"
+            />
+            <h4>Bedford Bizarre Tea</h4>
+          </div>
         </div>
+      </section>
+      <section id="locations">
+        <h2>Locations</h2>
+        <div class="container">
+          <div class="card">
+            <h4>Downtown</h4>
+            <p class="address">
+              384West 4th St<br />Suite 108<br />Portland Maine
+            </p>
+          </div>
+          <div class="card">
+            <h4>East Bayside</h4>
+            <p class="address">
+              3433 Phisherman's Avenue<br />(Northwest Corner)<br />Portland
+              Maine
+            </p>
+          </div>
+          <div class="card">
+            <h4>Oakdale</h4>
+            <p class="address">
+              515 Cresnent Avenue<br />Second Floor<br />Portland Maine
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="contact">
+        <h2>The Tea Cozy</h2>
+        <h5>contact@teacozy.com</h5>
+        <h5>917-555-8904</h5>
+        <p>copyright The Tea Cozy 2017</p>
       </div>
-    </div>
-    <script type="text/javascript" src="//d3js.org/d3.v3.min.js"></script>
-    <script type="text/javascript" src="//d3js.org/topojson.v1.min.js"></script>
-    <script type="text/javascript" src="planetaryjs.min.js"></script>
-    <script
-      src="//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script type="text/javascript" src="particles.js"></script>
-    <script type="text/javascript" src="globe.js"></script>
+    </footer>
   </body>
 </html>
