@@ -21,6 +21,8 @@ header {
   padding: 10px;
   background-color: black;
   border-bottom: 1px solid seashell;
+  opacity: 1;
+  z-index: 9;
 }
 header img {
   height: 50px;
@@ -47,6 +49,7 @@ section {
 #mission {
   height: 700px;
   background-image: url("images/img-mission-background.jpg");
+  background-size: cover;
   opacity: 0.5;
   display: flex;
   flex-direction: column;
@@ -86,6 +89,7 @@ section {
 #locations {
   height: 500px;
   background-image: url("images/img-locations-background.jpg");
+  background-size: cover;
 }
 #locations h2 {
   padding-top: 80px;
@@ -93,6 +97,7 @@ section {
 #locations .container {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   height: 100%;
 }
 #locations .card {
