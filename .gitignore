@@ -1,6 +1,6 @@
 #dafuq ever this is
 *.DS_Store
-
+.DS_Store
 # Logs
 logs
 *.log
